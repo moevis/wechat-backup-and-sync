@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "wechat backup",
+  "description": "backup and async wechat chat history",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "https://wx2.qq.com/"
+   ]
+}
